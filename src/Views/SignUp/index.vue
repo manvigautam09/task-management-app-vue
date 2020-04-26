@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LoginSignUp />
+    <LoginSignUp formName="SignUp" link="I am already member" />
   </div>
 </template>
 <script>

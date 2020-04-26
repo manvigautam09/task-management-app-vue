@@ -1,5 +1,5 @@
 <template>
-  <LoginSignUp />
+  <LoginSignUp formName="Login" link="Create an account" />
 </template>
 <script>
 import LoginSignUp from "../../components/LoginSignUpForm/index.vue";
