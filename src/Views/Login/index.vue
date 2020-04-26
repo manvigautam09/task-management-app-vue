@@ -1,3 +1,11 @@
 <template>
-  <div>Hello this is Login</div>
+  <LoginSignUp />
 </template>
+<script>
+import LoginSignUp from "../../components/LoginSignUpForm/index.vue";
+
+export default {
+  name: "Login",
+  components: { LoginSignUp }
+};
+</script>
