@@ -1,0 +1,31 @@
+.form-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    .form-section{
+        width:80%;
+        display:flex;
+        padding:75px 0;
+        max-width: 850px;
+        border-radius: 20px;
+        background-color: #fff;
+        .image-container{
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .form-image{
+                width:80%;
+            }
+            a{
+                color: black; 
+                font-size:16px; 
+                font-family: monospace;
+            }
+        }
+    }
+}
